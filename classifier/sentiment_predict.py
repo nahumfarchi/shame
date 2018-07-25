@@ -20,7 +20,7 @@ def predict(sentences, model_path):
         return ['neg' if l==1 else 'pos' for l in labels]
 
 if __name__ == '__main__':
-    MODEL_PATH = '..\\models\\kaggle-toxic-comments-00.pickle'
+    MODEL_PATH = '../models/kaggle-toxic-comments-00.pickle'
     SENTENCES = ['You are stupid', 
                  'You suck', 
                  'Fat idiot', 
